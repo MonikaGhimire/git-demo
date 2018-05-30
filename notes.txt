@@ -11,3 +11,14 @@ git config --global user.name "Monika"
 
 to push changes to remote repository:
 git push -u origin master
+
+To add email in git
+git config --global user.email “ex@gmail.com” 
+
+
+To download deleted file from git
+git clone (file link)
+
+To go back to previous version
+git reset --hard (previous version name)
+
