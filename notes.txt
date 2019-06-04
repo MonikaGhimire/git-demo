@@ -22,3 +22,12 @@ git clone (file link)
 To go back to previous version
 git reset --hard (previous version name)
 
+To create a pull request
+
+Step 1: create a new branch (git branch <branchName>)
+Step 2: go to the new branch (git checkout <branchName>)
+Note: step 1 and 2 can be done in one step: (git checkout -b <branchName>)
+
+Step 3: make the changes and commit
+Step 4: push the changes to remote branch (git push origin <branchName>)
+Step 5: create pull request from the remote repository ui
